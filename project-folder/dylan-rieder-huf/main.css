@@ -1,0 +1,438 @@
+body .container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* UpperNav Section Below */
+#upper-nav{
+    margin-top: 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #cbcbcb;
+    padding-bottom: 18px;
+    font-family: Avenir,sans-serif;
+}
+
+
+#upper-nav .shipping{
+    display: inline-block;
+    margin-left: 22px;
+    font-size: 14px;
+    color: rgb(252, 0, 0);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    letter-spacing: 1px;
+}
+
+#upper-nav .upper-menu{
+   float: right;
+   margin-right: 40px;
+   
+}
+
+#upper-nav .upper-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 2px;
+}
+
+#upper-nav .upper-menu a:hover{
+    color: #cbcbcb;
+    text-decoration: underline;
+}
+
+
+/* LowerNav Section Below */
+/* Come back and move Up text for Lower-Nav a href tag*/
+#lower-nav{
+    background-color: #E6E8E4;
+    border-bottom: 2px solid #cbcbcb;
+    font-family: Avenir,sans-serif;
+}
+
+#lower-nav .logo img{
+    margin-left: 30px;
+    width: 70px;
+    display: inline-block;
+}
+
+#lower-nav .lower-menu{
+    display: inline-block;
+    padding-left: 115px;
+}
+
+#lower-nav .lower-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 55px;
+}
+
+input[type=text] {
+    padding-right: 10px;
+    font-family: Avenir,sans-serif;
+    display: inline-block;
+    border: none;
+    font-size: 13px;
+    text-align: right;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+
+/* First and Second photo below */
+.first-photo img{
+    width: 100%;
+    margin-top: 20px;
+    z-index: -2;
+}
+
+.second-photo img{
+    display: block;
+    margin: 0 auto;
+    border: 0px solid;
+    border-radius: 100px;
+    width: 14.5%;
+    margin-top: -8.5%;
+    z-index: 1;
+}
+
+.about .title{
+    text-transform: uppercase;
+    font-family: Bebas,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    letter-spacing: -3px;
+}
+
+
+.about .info1{
+    width: 31%;
+    text-align: center;
+    margin-top: 4vw;
+    font-size: 1.2vw;
+    display: inline-block;
+    margin-left: 5px;
+    font-family: Avenir,sans-serif;
+    line-height: 1.2;
+
+}
+
+.about .info1 span{
+    font-weight: bold;
+
+}
+
+.about .info2{
+    width: 33%;
+    text-align: center;
+    margin-top: 4vw;
+    font-size: 1.2vw;
+    display: inline-block;
+    margin-left: 5px;
+    font-family: Avenir,sans-serif;
+    line-height: 1.2;
+}
+
+.about .info2 span{
+    font-weight: bold;
+
+}
+
+.about .info3{
+    width: 28%;
+    text-align: center;
+    margin-top: 4vw;
+    font-size: 1.2vw;
+    display: inline-block;
+    margin-left: 5px;
+    font-family: Avenir,sans-serif;
+    line-height: 1.2;
+    vertical-align: top;
+
+}
+
+.about .info3 span{
+    font-weight: bold;
+
+}
+
+/* Dylan Pictures Below */
+
+.photos .dylan-photos1 img{
+    max-width: 85%;
+    margin-top: 2vw;
+    margin-left: 6vw;
+    
+    
+}
+
+.photos .dylan-photos2 img{
+    max-width: 85%;
+    margin-top: 2vw;
+    margin-left: 6vw;
+
+}
+
+.photos .dylan-photos3 img{
+    max-width: 85%;
+    margin-top: 5vw;
+    margin-left: 6vw;
+
+}
+
+.photos .dylan-photos4 img{
+    max-width: 85%;
+    margin-top: 5vw;
+    margin-left: 6vw;
+
+}
+
+.photos .dylan-photos5 img{
+    max-width: 90%;
+    margin-top: 2vw;
+    margin-left: 6vw;
+
+}
+
+.photos .dylan-photos6 img{
+    max-width: 90%;
+    margin-top: 2vw;
+    margin-left: 6vw;
+
+}
+
+/* Footer Content Below */
+
+#footer{
+    background-color: #E6E8E4;
+    position: relative;
+    max-width: 100%;
+    border-top: 2px solid #cbcbcb;
+    font-family: Avenir,sans-serif;
+}
+
+#footer input{
+    display: inline-block;  
+    margin-left: 26vw;
+    font-size: 1.9vw;
+    width: 35vw;
+    padding-left: 1vw;
+    padding: .4vw;
+    color: black;
+    margin-top: 3vw;
+    font-family: Avenir,sans-serif;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    border: none;
+}
+
+#footer button{
+    display: inline-block;
+    cursor: pointer;
+    font-family: Avenir,sans-serif;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    margin-left: -0.5vw;
+    width: 17vw;
+    height: 3.1vw;
+    letter-spacing: 1px;
+
+}
+
+#footer button:hover{
+   border: 4px solid white;
+
+}
+
+#footer p{
+    font-size: 0.8vw;
+    font-family: Avenir,sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 1.5vw;
+    text-align: center;
+
+}
+.up{
+    font-size: 42px;
+    color: black
+}
+.scroll{
+    display: none;
+    border: 4px solid lightgray;
+    background-color: lightgray;
+    z-index: 1000;
+    position: fixed;
+    left: 78em;
+    top: 36em;
+}
+.scroll:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    border-color: darkgray;
+}
+
+
+/* Mobile Version */
+#mobileNavbar{
+    background-color: #E6E8E4 !important;
+    border-bottom: 2px solid #cbcbcb;
+}
+
+#mobileNavbarImage{
+    width: 70px;
+}
+
+#mobileNavbarNav{
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    font-family: Avenir,sans-serif;
+}
+
+/* First and Second photo below */
+#mobile-first-photo img{
+    width: 100%;
+    margin-top: 10px;
+    z-index: -2;
+}
+
+#mobile-second-photo img{
+    display: block;
+    margin: 0 auto;
+    border: 0px solid;
+    border-radius: 100px;
+    width: 16.5%;
+    margin-top: -8.5%;
+    z-index: 1;
+}
+
+#mobile-about-section .title{
+    text-transform: uppercase;
+    font-family: Bebas,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    letter-spacing: -3px;
+}
+
+#mobile-about-section{
+    width: 100%;
+}
+
+#mobile-about-section .info1, #mobile-about-section .info2, #mobile-about-section .info3{
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 0.9rem;
+    /* display: inline-block; */
+    font-family: Avenir,sans-serif;
+    line-height: 1.2;
+}
+
+#mobile-about-section .info1 span, #mobile-about-section .info2 span, #mobile-about-section .info3 span{
+    font-weight: bold;
+}
+
+/* Dylan Pictures Below */
+.mobile-photos .dylan-photos1 img{
+    max-width: 85%;
+    margin-top: 2vw;
+    margin-left: 6vw;   
+}
+
+.mobile-photos .dylan-photos2 img{
+    max-width: 85%;
+    margin-top: 2vw;
+    margin-left: 6vw;
+}
+
+.mobile-photos .dylan-photos3 img{
+    max-width: 85%;
+    margin-top: 5vw;
+    margin-left: 6vw;
+}
+
+.mobile-photos .dylan-photos4 img{
+    max-width: 85%;
+    margin-top: 5vw;
+    margin-left: 6vw;
+}
+
+.mobile-photos .dylan-photos5 img{
+    max-width: 90%;
+    margin-top: 2vw;
+    margin-left: 6vw;
+}
+
+.mobile-photos .dylan-photos6 img{
+    max-width: 90%;
+    margin-left: 6vw;
+}
+
+/* Footer Content Below */
+
+#mobile-footer{
+    background-color: #E6E8E4;
+    position: relative;
+    max-width: 100%;
+    border-top: 2px solid #cbcbcb;
+    font-family: Avenir,sans-serif;
+}
+
+#mobile-footer input{
+    display: inline-block;  
+    margin-left: 26vw;
+    font-size: 1.9vw;
+    width: 35vw;
+    padding-left: 1vw;
+    padding: .4vw;
+    color: black;
+    margin-top: 3vw;
+    font-family: Avenir,sans-serif;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    border: none;
+}
+
+#mobile-footer button{
+    display: inline-block;
+    cursor: pointer;
+    font-family: Avenir,sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    margin-left: -0.5vw;
+    height: 3.1vw;
+    letter-spacing: 1px;
+
+}
+
+#mobile-footer button:hover{
+   border: 4px solid white;
+
+}
+
+#mobile-footer p{
+    font-size: 8px;
+    font-family: Avenir,sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 1.5vw;
+    padding-bottom: 1rem;
+    text-align: center;
+
+}

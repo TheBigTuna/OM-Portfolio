@@ -1,0 +1,144 @@
+body{
+  max-width: 100%;
+}
+
+#navbar-right-menu .nav-link{
+  font-family: Avenir,sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+}
+
+.video-background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    /* border: 5px solid orange; */
+    z-index: -100;
+}
+
+.video-background video{
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+
+
+/* 
+
+
+
+
+
+
+.old-logo{
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  background-image: url("https://www.hardhathunter.com/img/hhh-logo.svg");
+  background-size: cover;
+  margin: 10px 100px;
+  cursor: pointer;
+}
+
+.top-nav{
+  float: right;
+  display: inline-block;
+  font-family: arial;
+  font-size: 14px;
+  margin: 30px 100px;
+  
+}
+
+.top-nav a{
+padding: 12px;
+color: white;
+}
+
+.top-nav .login{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  border-bottom: 2px solid #a08000;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: #fad008;
+
+}
+
+.huge{
+padding: 140px 120px;
+}
+
+.huge h1{ 
+font-size: 50px;
+font-family: arial;
+font-weight: bold;
+text-align: center;
+color: white;  
+}
+
+.button-container{
+text-align: center;
+
+}
+
+.button{
+   background-color: #fad008;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    border-bottom: 2px solid #a08000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    cursor: pointer;
+
+}
+body{
+background-color: black;
+z-index: -2;
+opacity: 0.9;
+}
+
+
+.video-background{
+  position: absolute;
+    top: 0;
+    left: 20px;
+    border: 5px solid orange;
+    width: cover;
+    height: cover;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+ */
